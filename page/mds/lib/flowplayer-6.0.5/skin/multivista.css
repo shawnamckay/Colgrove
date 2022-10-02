@@ -1,0 +1,202 @@
+/* custom multivista player skin */
+
+#flowplayer .fp-controls {
+	background-color: #000;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 30px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-transition: opacity .15s;
+	-moz-transition: opacity .15s;
+	transition: opacity .15s;
+}
+
+#flowplayer.is-playing .fp-controls {
+	opacity: 0;
+}
+
+#flowplayer.is-playing:hover .fp-controls {
+	opacity: 0.8;
+}
+
+#flowplayer.is-playing .fp-controls:hover {
+	opacity: 1;
+}
+
+#flowplayer .fp-controls .fp-play {
+	background-color: transparent;
+	top: 1px;
+	left: 5px;
+}
+
+#flowplayer .fp-controls .fp-play:hover {
+	background-color: #F17A18;
+}
+
+#flowplayer .fp-progress, .flowplayer .fp-volumelevel {
+	background-color: #F17A18;
+}
+
+#flowplayer .fp-controls .fp-timeline {
+    margin: 0 175px 0 95px;
+}
+
+#flowplayer .fp-time {
+	-webkit-transition: opacity .15s;
+	-moz-transition: opacity .15s;
+	transition: opacity .15s;
+}
+
+#flowplayer.is-playing .fp-time {
+	opacity: 0;
+	display: none;
+}
+
+#flowplayer.is-playing:hover .fp-time {
+	opacity: 0.8;
+	display: block;
+}
+
+#flowplayer .fp-time em {
+	bottom: 9px;
+    width: 50px;
+}
+
+#flowplayer .fp-time em.fp-elapsed {
+    left: 45px;
+}
+
+#flowplayer .fp-time em.fp-remaining,
+#flowplayer .fp-time em.fp-duration {
+    right: 125px;
+}
+
+/* Prevent displaying the video speed, e.g. "1X" */
+#flowplayer .fp-speed {
+	display: none;
+}
+
+/* Use a different play icon */
+.is-splash.flowplayer .fp-ui,
+.is-paused.flowplayer .fp-ui {
+    background: url(img/video_play_white.png) center no-repeat !important;
+    background-size: 11%;
+}
+
+
+.webcam-stream.flowplayer .fp-playbtn, 
+.webcam-stream.flowplayer .fp-ui > .fp-play,
+.webcam-stream.flowplayer .fp-ui > .fp-pause,
+.webcam-stream.flowplayer .fp-ui .fp-share,
+.webcam-stream.flowplayer .fp-qsel {
+    display: none;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 2dppx) {
+    .is-splash.flowplayer .fp-ui,
+    .is-paused.flowplayer .fp-ui {
+        background-image: url(img/video_play_white@x2.png);
+    }
+}
+
+/* hide play icon when error */
+#flowplayer.is-error .fp-ui {
+    background-image: none;
+}
+/* invert error colors */
+#flowplayer.is-error {
+    background: #000 !important;
+    border: 0 none !important;
+}
+#flowplayer .fp-message {
+    color: #FFF;
+}
+#flowplayer .fp-message > p {
+    color: #C0C6CF;
+    word-break: break-all;
+    margin: 0 10px;
+}
+
+#flowplayer .fp-cuepoint {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  height: 10px;
+  background-color: rgba(128, 128, 128, 0.7);
+}
+
+.videoResolutionSelector {
+	transition: 0.2s ease-in;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	position: absolute !important;
+	right: 5px;
+	bottom: 50px;
+	font-size: 12px;
+	font-weight: bold;
+	z-index: 100;
+	margin: 0;
+	padding: 0;
+}
+
+.videoResolutionSelector > li {
+	display: block;
+	list-style: none;
+	background-color: #16306E;
+	background-color: rgba(17, 30, 92, 0.5);
+	margin: 5px;
+	padding: 5px;
+	border-radius: 3px;
+	color: #FFF;
+	text-shadow: 0 0 2px #000;
+	text-align: center;
+}
+
+.videoResolutionSelector > li.active {
+	background-color: #F17A18;
+	cursor: default;
+}
+
+.videoResolutionSelector > li.active:hover {
+	background-color: #F17A18;
+	cursor: default;
+}
+
+.videoResolutionSelector > li:hover {
+	background-color: #16306E;
+	background-color: rgba(17, 30, 92, 0.75);
+	cursor: pointer;
+}
+
+/* Change the menu icon to the download icon (added by Chris) */
+.flowplayer .fp-menu.downloadIcon:before {
+    content: "\e60d";
+}
+
+
+[id^="webcamlivestream"] .fp-time, [id^="webcamlivestream"] .fp-controls {
+    display: none !important;
+}
+[id^="webcamlivestream"] .fp-waiting em{
+    display: none !important;
+}
+@keyframes rotate {
+	from { transform: rotate(0deg);   }
+	to   { transform: rotate(360deg); }
+}
+[id^="webcamlivestream"] .fp-waiting{
+	animation: rotate 2.5s linear infinite;
+    background: url(img/spinner.png) no-repeat;
+    height: 106px;
+    width: 106px;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -53px 0 0 -53px;
+}

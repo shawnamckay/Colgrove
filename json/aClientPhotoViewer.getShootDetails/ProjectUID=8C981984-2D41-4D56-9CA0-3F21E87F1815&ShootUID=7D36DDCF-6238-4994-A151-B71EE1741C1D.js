@@ -1,0 +1,1 @@
+mdsAjax.jsonpCallback({"data":[{"ProjectShootTypeUID":"F67C899F-187F-404B-9E4D-FD610E371FBC","InsightStatus":"","ProjectShootTypeDisplayLabel":"Hydronic Heating Exact-Built™ Photos","FloorplanDescription":"Basement","FloorplanUID":"46725040-EBA1-4B73-8037-4B6C459F8527","ShootDate":"October, 21 2021 00:00:00 +0000"}],"message":"","success":true});

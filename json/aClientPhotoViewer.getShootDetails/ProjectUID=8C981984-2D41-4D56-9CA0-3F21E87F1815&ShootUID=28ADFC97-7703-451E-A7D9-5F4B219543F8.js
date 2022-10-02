@@ -1,0 +1,1 @@
+mdsAjax.jsonpCallback({"data":[{"ProjectShootTypeUID":"E5BE989C-8A97-487C-9768-45CF845B8D6D","InsightStatus":"","ProjectShootTypeDisplayLabel":"Slideshows","FloorplanDescription":"","FloorplanUID":"","ShootDate":"October, 21 2021 00:00:00 +0000"}],"message":"","success":true});

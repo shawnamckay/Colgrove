@@ -1,0 +1,9 @@
+archiverConfig = {};
+archiverConfig.ISARCHIVE=true;
+archiverConfig.SHOWPHOTOLISTTOOLBAR=false;
+archiverConfig.SHOWPHOTOVIEWERTOOLBARACTIONS=false;
+archiverConfig.GATEWAY='floorplanOverview.htm';
+archiverConfig.DEFAULTPROJECTUID='8C981984-2D41-4D56-9CA0-3F21E87F1815';
+archiverConfig.ANNOTATIONSDEMO=false;
+archiverConfig.SHOWPHOTOLISTFAVSANDCHECKBOXES=false;
+archiverConfig.SHOWPHOTOVIEWERSAVETOCOMPUTER=true;

@@ -1,0 +1,1 @@
+mdsAjax.jsonpCallback({"data":[{"ProjectShootTypeUID":"C755BA7A-2964-46DE-ACE0-3B7538978D0A","InsightStatus":"","ProjectShootTypeDisplayLabel":"MEP Exact-Built™ Photos","FloorplanDescription":"Basement","FloorplanUID":"F8CE5490-FA38-4F79-B822-AB7BDCB80385","ShootDate":"December, 08 2021 00:00:00 +0000"}],"message":"","success":true});

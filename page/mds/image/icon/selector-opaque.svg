@@ -1,0 +1,16 @@
+<svg id="sml_selector_copy_3" data-name="sml selector copy 3" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00be3a;
+      }
+
+      .cls-2 {
+        fill: #fafafa;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle id="Ellipse_2_copy" data-name="Ellipse 2 copy" class="cls-1" cx="16.5" cy="16.5" r="16.5"/>
+  <path class="cls-2" d="M334.529,226.863l6.092,6.29,13.769-18.115-0.258,8.74s-9.806,11.463-13.1,15.68A33.192,33.192,0,0,0,331.949,232Z" transform="translate(-327 -211)"/>
+</svg>

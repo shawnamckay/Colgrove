@@ -1,0 +1,9 @@
+<!DOCTYPE HTML><html><head><meta charset="UTF-8">
+<script type="text/javascript" src="page/mds/sencha/ext-6.2.2.372.js"></script>
+<script type="text/javascript" src="page/mds/archiverConfig.js"></script>
+<script type="text/javascript">
+    var ProjectUID = (Ext.Object.fromQueryString(document.location.search)).ProjectUID;
+    if (!ProjectUID) ProjectUID = archiverConfig.DEFAULTPROJECTUID;
+    document.location.href = "page/" + archiverConfig.GATEWAY + "?ProjectUID=" + ProjectUID;
+</script>
+<title>Multivista - Dashboard</title></head></html>

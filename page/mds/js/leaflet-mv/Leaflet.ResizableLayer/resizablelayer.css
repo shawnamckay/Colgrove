@@ -1,0 +1,43 @@
+
+.leaflet-resize-area {
+    position: absolute;
+    border: 2px dotted black;
+    background: rgba(0,0,100,0.01);
+    cursor: move;
+}
+
+.leaflet-resize-handle {
+    position: absolute;
+    background: #FFF;
+    border: 1px solid #666;
+    -moz-box-shadow: 1px 1px rgba(0,0,0, 0.2);
+    -webkit-box-shadow: 1px 1px rgba(0,0,0, 0.2);
+    box-shadow: 1px 1px rgba(0,0,0, 0.2);
+    width: 10px;
+    height: 10px;
+    margin: -10px 0 0 -10px !important;
+}
+
+
+.leaflet-resize-area,
+.leaflet-resize-handle {
+    opacity: 0.8;
+}
+
+.leaflet-resize-area:hover,
+.leaflet-resize-handle:hover {
+    opacity: 1;
+}
+
+.leaflet-resize-handle.nw {
+    cursor: nw-resize;
+}
+.leaflet-resize-handle.ne {
+    cursor: ne-resize;
+}
+.leaflet-resize-handle.sw {
+    cursor: sw-resize;
+}
+.leaflet-resize-handle.se {
+    cursor: se-resize;
+}

@@ -1,0 +1,1 @@
+mdsAjax.jsonpCallback({"data":{"type":"FeatureCollection","features":[]},"message":"","success":false});
