@@ -36,4 +36,7 @@ You may rename the top level folder of a project archive to something more meani
 
 	Included Content
 
-Archives may contain Floorplans, Photos, Webcams and Videos.  Archives may also contain user generated Comments, Photos and Documents.  The following content types are not included in project archives and require a Multivista login for access, SITE-WALK 360°, UAV MAPPING, UAV PANORAMAS and QA/QC List.
+Archives may contain Floorplans, Photos, Webcams and Videos.  Archives may also contain user generated Comments, Photos and Documents.  The following content types are not included in project archives and require a Multivista login for access, SITE-WALK 360Â°, UAV MAPPING, UAV PANORAMAS and QA/QC List.
+
+
+https://shawnamckay.github.io/Colgrove/
